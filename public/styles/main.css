@@ -1,0 +1,53 @@
+body{
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+button{
+    margin: 10px 0;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.noAuth{
+    background: blue;
+}
+
+.basicAuth{
+    background: limegreen;
+}
+
+.APIKeyAuth{
+    background: orange;
+}
+
+.bearerTokenAuth{
+    background: crimson;
+}
+
+.output{
+    font-size: 0.9em;
+    margin: 40px 0;
+    padding: 10px;
+    min-width: 10vw;
+    min-height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}

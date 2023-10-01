@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="container">
+            <button type="submit" onclick="window.location.href='/noAuth'" class="noAuth">No Auth</button>
+            <button onclick="window.location.href='/basicAuth'" class="basicAuth">Basic Auth</button>
+            <button onclick="window.location.href='/APIKeyAuth'" class="APIKeyAuth">API Key</button>
+            <button onclick="window.location.href='/bearerTokenAuth'" class="bearerTokenAuth">Bearer Token</button>
+        <div class="output">
+            <p>
+                <%= content %>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
